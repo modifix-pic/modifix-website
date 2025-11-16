@@ -1,12 +1,14 @@
-modifix-website/<!DOCTYPE html>
+index.html
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Modifix | Industrial Automation & Packaging Solutions</title>
+  <title>Modifix | Industrial Automation & Food & Beverage Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Modifix specialises in bottling, filling, food production, packaging, and industrial automation solutions across South Australia." />
+  <meta name="description" content="Modifix specialises in automation, packaging, bottling, processing and end-to-end food & beverage solutions from farm to end user." />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
+
 <body>
 <header class="site-header">
   <div class="container header-inner">
@@ -25,58 +27,66 @@ modifix-website/<!DOCTYPE html>
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <h1>Smart automation for bottling, packaging & production lines.</h1>
+        <h1>Smart automation for food & beverage – from farm to end user.</h1>
         <p>
-          Modifix designs, installs and improves production lines for food,
-          beverage and manufacturing businesses across South Australia – from
-          fillers and labellers to conveyors, safety systems and custom one-off machines.
+          Modifix designs, installs and improves production lines across the entire
+          food and beverage chain – from raw product handling on farm and in
+          processing plants, through blending and filling, all the way to packaging,
+          warehousing and dispatch.
         </p>
+
         <div class="hero-buttons">
           <a href="services.html" class="btn primary">View Services</a>
           <a href="contact.html" class="btn outline">Request a Call</a>
         </div>
       </div>
+
       <div class="hero-side">
         <div class="hero-card">
           <h2>Why Modifix?</h2>
           <ul>
-            <li>Hands-on production line experience</li>
-            <li>Turn-key upgrades & new installations</li>
-            <li>Fault finding, optimisation & maintenance</li>
-            <li>Compliance-minded (ISO / CE / WHS)</li>
+            <li>Experience across the full food &amp; beverage supply chain</li>
+            <li>Turn-key upgrades &amp; new installations</li>
+            <li>Fault finding, optimisation &amp; maintenance</li>
+            <li>Compliance-minded (Food Safety, ISO, CE, WHS)</li>
           </ul>
         </div>
       </div>
+
     </div>
   </section>
 
   <section class="strip">
     <div class="container strip-inner">
-      <p><strong>Need help with a filler, labeler, conveyor or line control?</strong> Modifix can diagnose issues, recommend improvements and implement practical solutions that keep you running.</p>
+      <p><strong>Need help with processing, bottling, packaging or automation?</strong> Modifix delivers practical, real-world solutions.</p>
     </div>
   </section>
 
   <section class="home-grid">
     <div class="container grid-3">
+      
       <div class="card">
-        <h3>Bottling & Filling Lines</h3>
-        <p>Installation, commissioning and optimisation of fillers, cappers, rinsers and associated equipment for wine and beverage producers.</p>
+        <h3>Processing, Bottling & Filling Lines</h3>
+        <p>Installation, commissioning and optimisation of processing, blending, bottling and filling lines for dairy, beverages, wine, sauces, oils and more.</p>
       </div>
+
       <div class="card">
-        <h3>Packaging & End-of-Line</h3>
-        <p>Conveyors, labellers, inspection, case packing and palletising upgrades to improve flow, uptime and operator safety.</p>
+        <h3>Packaging, Logistics & End-of-Line</h3>
+        <p>Cartoning, labelling, coding, inspection, case packing, palletising and conveyors that link production to warehousing and dispatch.</p>
       </div>
+
       <div class="card">
-        <h3>Automation & Controls</h3>
-        <p>PLC/VSD control, sensors, line control logic, safety circuits and fault finding on existing systems.</p>
+        <h3>Automation & Controls Across the Chain</h3>
+        <p>PLC/VSD control, sensors, traceability systems and safety circuits for equipment from raw intake to finished-goods handling.</p>
       </div>
+
     </div>
   </section>
 
   <section class="cta">
     <div class="container cta-inner">
-      <h2>Ready to improve your line?</h2>
-      <p>Tell Modifix what problems you’re having on your line and we’ll come back with practical options – not just theory.</p>
+      <h2>Ready to improve your operation?</h2>
+      <p>Tell Modifix what’s happening on your line and we'll help with practical options.</p>
       <a href="contact.html" class="btn primary">Contact Modifix</a>
     </div>
   </section>
@@ -91,14 +101,7 @@ modifix-website/<!DOCTYPE html>
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+
 </body>
 </html>
 
-├─ index.html
-├─ services.html
-├─ about.html
-├─ projects.html
-├─ contact.html
-└─ assets/
-   └─ css/
-      └─ styles.css
