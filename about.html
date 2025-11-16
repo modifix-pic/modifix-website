@@ -1,0 +1,83 @@
+about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Modifix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Learn about Modifix, a South Australian business specialising in automation and production solutions across the food and beverage supply chain." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">Modifix</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>About Modifix</h1>
+      <p>Automation and production support built on real food &amp; beverage experience.</p>
+    </div>
+  </section>
+
+  <section class="container about-grid">
+    <div>
+      <h2>Who we are</h2>
+      <p>
+        Modifix is a South Australian technical services business supporting the
+        entire food &amp; beverage supply chain. We work with producers, processors,
+        packaging lines, storage facilities and dispatch operations to keep
+        equipment running safely, efficiently and reliably.
+      </p>
+      <p>
+        With hands-on experience across fillers, labellers, conveyors, pigging,
+        line control and safety systems, Modifix focuses on practical solutions
+        that work in live production environments – not just on paper.
+      </p>
+    </div>
+    <div>
+      <h2>How we work</h2>
+      <ul>
+        <li><strong>Listen first:</strong> understand your process, symptoms and constraints.</li>
+        <li><strong>Identify true causes:</strong> fix the real issue, not just the loudest alarm.</li>
+        <li><strong>Offer options:</strong> quick fixes vs. longer-term improvements with clear trade-offs.</li>
+        <li><strong>Deliver cleanly:</strong> neat work, tidy documentation and minimal disruption.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="highlight">
+    <div class="container">
+      <h2>Who we support</h2>
+      <div class="pill-row">
+        <span class="pill">Producers</span>
+        <span class="pill">Processors</span>
+        <span class="pill">Packaging &amp; end-of-line</span>
+        <span class="pill">Storage &amp; warehousing</span>
+        <span class="pill">Dispatch &amp; logistics</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Modifix. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
