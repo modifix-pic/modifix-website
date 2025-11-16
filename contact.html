@@ -1,0 +1,79 @@
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Modifix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Modifix for automation and production support across producers, processors, packaging, storage and dispatch." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">Modifix</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact</h1>
+      <p>Tell us what’s happening on your line – producer, processor, packer, storage or dispatch – and we’ll get back to you.</p>
+    </div>
+  </section>
+
+  <section class="container contact-grid">
+    <div>
+      <h2>Send a message</h2>
+      <!-- Form wiring can be added later (Formspree, Cloudflare, etc.) -->
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Phone
+          <input type="tel" name="phone" placeholder="Optional" />
+        </label>
+        <label>
+          How can Modifix help?
+          <textarea name="message" rows="5" placeholder="Describe your process, equipment and issue..."></textarea>
+        </label>
+        <button type="submit" class="btn primary" disabled>Submit (coming soon)</button>
+        <p class="form-note">Online form integration coming soon – for now, please contact Modifix via phone or email.</p>
+      </form>
+    </div>
+
+    <div class="contact-details">
+      <h2>Other contact details</h2>
+      <p><strong>Business:</strong> Modifix</p>
+      <p><strong>Region:</strong> South Australia</p>
+      <p><strong>Focus:</strong> Automation &amp; production solutions for food &amp; beverage producers, processors, packaging, storage and dispatch.</p>
+      <p class="muted">Add your mobile, 1300 number and email here once you’ve finalised them.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Modifix. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
