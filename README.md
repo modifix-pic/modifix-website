@@ -3,9 +3,9 @@ index.html
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Modifix | Industrial Automation & Food & Beverage Solutions</title>
+  <title>Modifix | Automation & Production Solutions for Food & Beverage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Modifix specialises in automation, packaging, bottling, processing and end-to-end food & beverage solutions from farm to end user." />
+  <meta name="description" content="Modifix provides automation and production solutions for food and beverage producers, processors, packers, storage and dispatch operations." />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
@@ -27,12 +27,11 @@ index.html
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <h1>Smart automation for food & beverage – from farm to end user.</h1>
+        <h1>Automation & production solutions for the entire food &amp; beverage chain.</h1>
         <p>
-          Modifix designs, installs and improves production lines across the entire
-          food and beverage chain – from raw product handling on farm and in
-          processing plants, through blending and filling, all the way to packaging,
-          warehousing and dispatch.
+          Modifix supports producers, processors, packers, storage sites and dispatch
+          operations with practical automation, line upgrades, machinery integration
+          and fault-finding that keeps product moving to the end user.
         </p>
 
         <div class="hero-buttons">
@@ -45,9 +44,9 @@ index.html
         <div class="hero-card">
           <h2>Why Modifix?</h2>
           <ul>
-            <li>Experience across the full food &amp; beverage supply chain</li>
+            <li>Support for producers, processors &amp; packers</li>
             <li>Turn-key upgrades &amp; new installations</li>
-            <li>Fault finding, optimisation &amp; maintenance</li>
+            <li>Automation, line control &amp; troubleshooting</li>
             <li>Compliance-minded (Food Safety, ISO, CE, WHS)</li>
           </ul>
         </div>
@@ -58,35 +57,33 @@ index.html
 
   <section class="strip">
     <div class="container strip-inner">
-      <p><strong>Need help with processing, bottling, packaging or automation?</strong> Modifix delivers practical, real-world solutions.</p>
+      <p><strong>Equipment not behaving?</strong> Modifix focuses on real-world fixes that respect production windows, operators and budgets.</p>
     </div>
   </section>
 
   <section class="home-grid">
     <div class="container grid-3">
-      
       <div class="card">
-        <h3>Processing, Bottling & Filling Lines</h3>
-        <p>Installation, commissioning and optimisation of processing, blending, bottling and filling lines for dairy, beverages, wine, sauces, oils and more.</p>
+        <h3>Producers &amp; Processors</h3>
+        <p>Automation, integration and optimisation for producers and processors handling raw ingredients, liquids, dairy, wine, beverages, sauces and more.</p>
       </div>
 
       <div class="card">
-        <h3>Packaging, Logistics & End-of-Line</h3>
-        <p>Cartoning, labelling, coding, inspection, case packing, palletising and conveyors that link production to warehousing and dispatch.</p>
+        <h3>Packaging &amp; End-of-Line</h3>
+        <p>Labelling, coding, inspection, cartoning, case packing, palletising and conveyors linking production to warehousing and logistics.</p>
       </div>
 
       <div class="card">
-        <h3>Automation & Controls Across the Chain</h3>
-        <p>PLC/VSD control, sensors, traceability systems and safety circuits for equipment from raw intake to finished-goods handling.</p>
+        <h3>Storage, Warehousing &amp; Dispatch</h3>
+        <p>Automation and control solutions supporting safe, efficient movement of finished goods through storage, staging, pick/pack and dispatch.</p>
       </div>
-
     </div>
   </section>
 
   <section class="cta">
     <div class="container cta-inner">
-      <h2>Ready to improve your operation?</h2>
-      <p>Tell Modifix what’s happening on your line and we'll help with practical options.</p>
+      <h2>Need a competitive edge on your line?</h2>
+      <p>Talk to Modifix about automation and production solutions that actually work on the floor.</p>
       <a href="contact.html" class="btn primary">Contact Modifix</a>
     </div>
   </section>
@@ -101,7 +98,7 @@ index.html
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
-
 </body>
 </html>
+
 
