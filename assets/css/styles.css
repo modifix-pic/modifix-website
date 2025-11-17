@@ -33,6 +33,14 @@ body {
   justify-content: space-between;
   padding: 0.9rem 0;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 34px;       /* adjust if you want it bigger/smaller */
+}
 
 .logo {
   font-weight: 800;
