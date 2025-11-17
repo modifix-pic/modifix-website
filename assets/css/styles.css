@@ -463,3 +463,49 @@ body {
     margin-left: 0.6rem;
   }
 }
+.sector-card {
+  position: relative;
+  overflow: hidden;
+  color: #0b1120;
+}
+
+.sector-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.25;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.sector-card h3,
+.sector-card p {
+  position: relative;
+  z-index: 1;
+}
+
+/* Individual images */
+.sector-producers::before {
+  background-image: url("assets/img/sector-producers.jpg");
+}
+
+.sector-processors::before {
+  background-image: url("assets/img/sector-processors.jpg");
+}
+
+.sector-packaging::before {
+  background-image: url("assets/img/sector-packaging.jpg");
+}
+
+.sector-storage::before {
+  background-image: url("assets/img/sector-storage.jpg");
+}
+
+.sector-dispatch::before {
+  background-image: url("assets/img/sector-dispatch.jpg");
+}
+
+.sector-oem::before {
+  background-image: url("assets/img/sector-oem.jpg");
+}
