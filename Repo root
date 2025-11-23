@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Food Packaging & Processing Solutions | Modifix Adelaide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Modifix provides complete food packaging and processing solutions across Adelaide and the Adelaide Hills — supplies, machines, repairs and automation for producers and processors." />
+  <meta name="keywords" content="food packaging, food packaging Adelaide, food packaging supplies, food packaging supplies Adelaide, food packaging near me, food packaging Adelaide Hills, food packaging supplies Adelaide Hills, food packaging machines, food packaging machine repairs, food packaging machine sales, food packaging labels Adelaide, food packaging boxes Adelaide, food packaging bags Adelaide, how do I choose a food packaging machine" />
+  <link rel="canonical" href="https://modifix.com.au/food-packaging.html" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta property="og:title" content="Food Packaging & Processing Solutions | Modifix Adelaide">
+  <meta property="og:description" content="Supplies, machines, repairs and automation for food & beverage producers and processors in Adelaide & the Adelaide Hills.">
+  <meta property="og:url" content="https://modifix.com.au/food-packaging.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Food Packaging & Processing Solutions | Modifix Adelaide">
+  <meta name="twitter:description" content="Supplies, machines, repairs and automation for food & beverage producers and processors in Adelaide & the Adelaide Hills.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Modifix",
+    "url": "https://modifix.com.au/food-packaging.html",
+    "image": "https://modifix.com.au/assets/img/hero-processing.jpg",
+    "description": "Food packaging and processing solutions for producers and processors in Adelaide and the Adelaide Hills — supplies, machinery, labels, repairs and automation.",
+    "telephone": "+61 8 8389 4547",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "SA",
+      "addressCountry": "AU"
+    },
+    "areaServed": "Adelaide, Adelaide Hills, South Australia",
+    "serviceType": [
+      "Food packaging supplies",
+      "Food packaging machines",
+      "Food packaging machine repairs",
+      "Food packaging automation",
+      "Food packaging labels and boxes"
+    ],
+    "knowsAbout": [
+      "food packaging adelaide",
+      "food packaging supplies adelaide hills",
+      "food packaging machine repairs",
+      "food packaging labels adelaide",
+      "food packaging boxes adelaide",
+      "how do I choose a food packaging machine"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">MODIFIX</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Food Packaging &amp; Processing Solutions in Adelaide</h1>
+      <p>Supplies, machines, repairs and automation for producers &amp; processors across Adelaide and the Adelaide Hills.</p>
+    </div>
+  </section>
+
+  <section class="container" style="padding:2rem 0;">
+    <h2>End-to-end Food Packaging</h2>
+    <p>
+      Modifix specialises in <strong>food packaging</strong> and <strong>processing systems</strong> for the 
+      food and beverage industry in <strong>Adelaide</strong> and the <strong>Adelaide Hills</strong>.
+      From <strong>food packaging supplies</strong> and consumables to 
+      <strong>packaging machines</strong>, <strong>labels</strong>, <strong>bags</strong> and 
+      <strong>boxes</strong> — we deliver end-to-end automation and support.
+    </p>
+
+    <h2 style="margin-top:1.4rem;">Food Packaging Machines: Sales &amp; Repairs</h2>
+    <p>
+      Whether you’re installing a new <strong>food packaging machine</strong> or 
+      need <strong>repairs</strong> to existing systems, Modifix provides complete technical support.
+      We help you choose the right <strong>food packaging machine</strong> for your process, 
+      ensuring compliance, speed and efficiency.
+    </p>
+    <p>
+      <a href="services.html">See related services</a> · <a href="contact.html">Book a visit / audit</a>
+    </p>
+
+    <h2 style="margin-top:1.4rem;">Food Packaging Supplies &amp; Labels</h2>
+    <p>
+      We stock and source <strong>food packaging supplies</strong> including
+      <strong>labels</strong>, <strong>bags</strong>, and <strong>boxes</strong> tailored for
+      local food producers and manufacturers.
+    </p>
+
+    <h2 style="margin-top:1.4rem;">Why Modifix?</h2>
+    <ul>
+      <li>Locally based in Adelaide &amp; the Adelaide Hills</li>
+      <li>Support for producers, processors and packaging sites</li>
+      <li>Automation and machinery integration expertise</li>
+      <li>Food safety and compliance focus</li>
+    </ul>
+
+    <div class="cta" style="margin-top:1.6rem;">
+      <div class="cta-inner">
+        <h3>Need food packaging help now?</h3>
+        <p>Call us to discuss machines, supplies or repairs.</p>
+        <a href="tel:0883894547" class="btn primary">📞 08&nbsp;8389&nbsp;4547</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Serving Adelaide &amp; the Adelaide Hills with food packaging supplies, machines, repairs and automation solutions.</p>
+    <p>© <span id="year"></span> Modifix. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
