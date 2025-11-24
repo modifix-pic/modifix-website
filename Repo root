@@ -24,7 +24,7 @@
     "url": "https://modifix.com.au/food-packaging.html",
     "image": "https://modifix.com.au/assets/img/hero-processing.jpg",
     "description": "Food packaging and processing solutions for producers and processors in Adelaide and the Adelaide Hills — supplies, machinery, labels, repairs and automation.",
-    "telephone": "+61 8 8389 4547",
+    "telephone": "0430800617",
     "address": {
       "@type": "PostalAddress",
       "addressRegion": "SA",
@@ -112,7 +112,7 @@
       <div class="cta-inner">
         <h3>Need food packaging help now?</h3>
         <p>Call us to discuss machines, supplies or repairs.</p>
-        <a href="tel:0883894547" class="btn primary">📞 08&nbsp;8389&nbsp;4547</a>
+        <a href="tel:0430800617" class="btn primary">📞 0430800617</a>
       </div>
     </div>
   </section>
